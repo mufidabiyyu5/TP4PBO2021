@@ -59,7 +59,7 @@ $otask->getTask();
 $data = null;
 $no = 1;
 
-while (list($nim, $tname, $tjk, $talamat, $tprodi, $tstatus) = $otask->getResult()) {
+while (list($nim, $tname, $tjk, $tprodi, $talamat, $tstatus) = $otask->getResult()) {
 	// Tampilan jika status nya sudah lulus
 	if($tstatus == "Sudah Lulus"){
 		$data .= "<tr>
